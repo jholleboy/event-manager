@@ -1,0 +1,106 @@
+.event-details-container {
+    max-width: 48rem;
+    margin: 0 auto;
+    background-color: white;
+    color: #1F2937;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+.dark .event-details-container {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.event-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.event-info {
+    color: #4B5563;
+    margin-bottom: 0.5rem;
+}
+
+.dark .event-info {
+    color: #D1D5DB;
+}
+
+.event-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #D1D5DB;
+    margin-top: 1.5rem;
+}
+
+.event-table th {
+    background-color: #E5E7EB;
+    padding: 0.5rem;
+    border: 1px solid #D1D5DB;
+}
+
+.event-table td {
+    padding: 0.5rem;
+    border: 1px solid #D1D5DB;
+}
+
+.event-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.event-remove-button {
+    background-color: #EF4444;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.event-remove-button:hover {
+    background-color: #DC2626;
+}
+
+.event-add-form select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 0.375rem;
+    margin-top: 0.25rem;
+}
+
+.event-add-button {
+    width: 100%;
+    background-color: #22C55E;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.event-add-button:hover {
+    background-color: #16A34A;
+}
+
+.event-back-button {
+    display: block;
+    text-align: center;
+    background-color: #6B7280;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+
+.event-back-button:hover {
+    background-color: #4B5563;
+}

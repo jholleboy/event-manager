@@ -1,0 +1,63 @@
+.admin-container h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.admin-container {
+    overflow: scroll;
+}
+
+.admin-button {
+    background-color: #22C55E;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #D1D5DB;
+    margin-top: 1.5rem;
+}
+
+.admin-table th {
+    background-color: #E5E7EB;
+    padding: 0.5rem;
+    border: 1px solid #D1D5DB;
+}
+
+.admin-table td {
+    padding: 0.5rem;
+    border: 1px solid #D1D5DB;
+}
+
+.admin-actions {
+    display: flex;
+    gap: 0.5rem;
+    height: 100%; 
+}
+
+.admin-actions a,
+.admin-actions button {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    color: white;
+    text-align: center;
+    height: 35px;
+}
+
+.admin-view {
+    background-color: #22C55E;
+}
+
+.admin-edit {
+    background-color: #EAB308;
+}
+
+.admin-delete {
+    background-color: #EF4444;
+}
